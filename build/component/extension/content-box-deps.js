@@ -1,0 +1,1 @@
+modulex.config("requires",{"component/extension/content-box":["xtemplate/runtime"]});

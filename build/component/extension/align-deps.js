@@ -1,0 +1,1 @@
+modulex.config("requires",{"component/extension/align":["util","node","ua"]});

@@ -1,0 +1,1 @@
+modulex.config("requires",{"component/control":["util","node","event-dom/gesture/basic","event-dom/gesture/tap","base","ua","feature","xtemplate/runtime"]});

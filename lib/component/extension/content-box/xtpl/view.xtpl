@@ -1,0 +1,1 @@
+<div class="{{getBaseCssClasses ('content')}}">{{{content}}}</div>

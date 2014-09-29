@@ -1,0 +1,1 @@
+modulex.config("requires",{"component/container":["util","component/control"]});
