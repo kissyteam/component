@@ -21,6 +21,6 @@
         "modulex-base": "modulex-base#master",
         "modulex-ua": "modulex-ua#master",
         "modulex-feature": "modulex-feature#master",
-        "xtemplate": "xtemplate#3.2.1"
+        "xtemplate": "xtemplate#3.2.2"
     }
 }

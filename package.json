@@ -1,6 +1,6 @@
 {
   "name": "modulex-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "yiminghe <yiminghe@gmail.com>",
   "engines": {
     "node": "~0.11"
@@ -54,7 +54,7 @@
     "node-jscover-coveralls": "^1.0.10",
     "node-jscover-handler": "^1.0.3",
     "precommit-hook": "^1.0.7",
-    "xtemplate": "3.2.1"
+    "xtemplate": "3.2.2"
   },
   "precommit": [
     "lint"
