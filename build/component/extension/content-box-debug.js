@@ -75,7 +75,7 @@ componentExtensionContentBox = function (exports) {
   function shortcut(self) {
     var contentEl = self.get('contentEl');
     self.$contentEl = self.$contentEl = contentEl;
-    self.contentEl = self.contentEl = contentEl;
+    self.contentEl = self.contentEl = contentEl && contentEl[0];
   }
   var contentTpl = componentExtensionContentBoxXtplViewRender;
   function ContentBox() {
