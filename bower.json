@@ -21,6 +21,8 @@
         "modulex-base": "modulex-base#master",
         "modulex-ua": "modulex-ua#master",
         "modulex-feature": "modulex-feature#master",
-        "xtemplate": "xtemplate#3.2.2"
+        "xtemplate": "xtemplate#3.2.2",
+        "modulex-dd": "modulex-dd#master",
+        "modulex-resizable": "modulex-resizable#master"
     }
 }
