@@ -1,7 +1,7 @@
 /*
 Copyright 2014, modulex-component@1.0.3
 MIT Licensed
-build time: Thu, 16 Oct 2014 07:30:48 GMT
+build time: Thu, 30 Oct 2014 10:17:31 GMT
 */
 modulex.add("component/control", ["xtemplate/runtime","util","node","event-dom/gesture/basic","event-dom/gesture/tap","base","ua","feature"], function(require, exports, module) {
 var xtemplateRuntime = require("xtemplate/runtime");
@@ -479,13 +479,17 @@ componentControl = function (exports) {
       }
     },
     handleMouseDownInternal: function (ev) {
-      var self = this, n, isMouseActionButton = ev.which === 1;
+      var self = this;
+      var n;
+      var isMouseActionButton = ev.which === 1;
       if (isMouseActionButton || isTouchGestureSupported) {
         if (self.get('activeable')) {
           self.set('active', true);
         }
         if (self.get('focusable')) {
-          self.focus();
+          if (ev.target !== self.getKeyEventTarget()[0]) {
+            self.focus();
+          }
         }
         if (!self.get('allowTextSelection') && ev.gestureType === 'mouse') {
           n = ev.target.nodeName;
